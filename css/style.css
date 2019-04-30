@@ -1,0 +1,31 @@
+body {
+    height: 100vh;
+    background: #f5f5f5;
+}
+
+.blocks {
+    display: flex;           /* establish flex container */
+    flex-direction: column;  /* make main axis vertical */
+    justify-content: center; /* center items vertically, in this case */
+    align-items: center;     /* center items horizontally, in this case */
+    height: 100%;
+}
+
+.block-center {
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    display: none;
+}
+
+.hidden, .hiddenc {
+    display: none;
+}
+
+.custom-file-label::after {
+    content: "Vybra\0165  súbor";
+}
+
+.container-table-generated {
+    margin: 10px 40px 40px 40px;
+}
